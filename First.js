@@ -8,7 +8,7 @@ const server =http.createServer((req,res) =>{
     }
 else{
     res.end(`
-        <h1>Oops!</h1>
+        <h2>Oops!</h2>
         <p>Page not found</p>
         <a href="/">Go back</a>
         `)
